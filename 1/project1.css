@@ -1,0 +1,64 @@
+body{
+    background-color:#040f26;
+    font-size: 20pt;
+    perspective: 800px;
+}
+
+#header{
+    color: wheat;
+    text-align: center;
+}
+
+div#main{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(68, 36, 104);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 700px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.submityes{
+    margin: 15px;
+    background-color: rgb(136, 37, 128);
+    font-size: 15pt;
+    right: 190px;
+    bottom: 85px;
+    padding: 10px;
+    user-select: none;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.193) 3px 3px 1px;
+    cursor: pointer;
+}
+
+.submityes:hover{
+    background-color: rgb(234, 167, 255);
+    border-radius: 10%;
+    color: black;
+    box-shadow: black 5px 2px 1px;
+}
+
+.option2 {
+    background-color: rgb(68, 20, 104);
+    font-size: 15pt;
+    user-select: none;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.193) 3px 3px 1px;
+    transition: 0.2s;
+    padding: 5px;
+    font-size: 15pt;
+    cursor: pointer;
+    margin: auto;
+    width: 90px;
+
+}
+
+
+.option2:hover{
+    background-color: rgb(234, 167, 255);
+    border-radius: 2%;
+    color: black;
+    box-shadow: black 5px 2px 1px;
+}
